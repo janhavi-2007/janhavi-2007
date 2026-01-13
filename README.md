@@ -66,3 +66,30 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:2563EB&height=120&section=footer"/>
 </p>
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: YOUR_USERNAME
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - name: Push snake
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
