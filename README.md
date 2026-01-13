@@ -30,24 +30,16 @@
 📈 Growing every day with consistency
 </p>
 
-<!-- ===================== GITHUB STATS ===================== -->
-<h2 align="center" style="color:#58A6FF;">📊 GitHub Stats</h2>
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=github-dark&hide_border=true" />
-</p>
-
 <!-- ===================== TOP LANGUAGES ===================== -->
 <p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=janhavi-2007&layout=compact&theme=github_dark&hide_border=true" />
 </p>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
 <h2 align="center" style="color:#58A6FF;">🐍 Contribution Graph</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/janhavi-2007/janhavi-2007/output/github-contribution-grid-snake.svg" />
 </p>
 
 <!-- ===================== CONNECT ===================== -->
@@ -57,7 +49,7 @@
   <a href="https://www.linkedin.com/">
     <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:yourmail@gmail.com">
+  <a href="janhavii0911@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-06B6D4?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
