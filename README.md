@@ -17,7 +17,7 @@
 ⚙️ Interested in Cloud & DevOps
 </p>
 
-<!-- ===================== TOP LANGUAGES (CUSTOM) ===================== -->
+<!-- ===================== PROGRAMMING LANGUAGES ===================== -->
 <h2 align="center" style="color:#58A6FF;">💻 Programming Languages</h2>
 
 <p align="center">
@@ -28,10 +28,10 @@
 <h2 align="center" style="color:#58A6FF;">🤝 Connect With Me</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com">
+  <a href="https://www.linkedin.com/in/janhavi-suryawanshi-44b63135b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="janhavii0911@gmail.com">
+  <a href="mailto:janhavii0911@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-06B6D4?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
@@ -40,4 +40,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:2563EB&height=120&section=footer"/>
 </p>
-
