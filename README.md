@@ -13,35 +13,6 @@
   <img src="https://komarev.com/ghpvc/?username=janhavi-2007&label=Profile%20Views&color=2563eb&style=for-the-badge" />
 </p>
 
-<!-- ===================== BADGES ===================== -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Primary-Java-2563EB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Core-C%20%7C%20C++-06B6D4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Scripting-Python-22D3EE?style=for-the-badge" />
-</p>
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: janhavi-2007
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 <!-- ===================== ABOUT ME ===================== -->
 <h2 align="center" style="color:#58A6FF;">🚀 About Me</h2>
 
