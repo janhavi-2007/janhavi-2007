@@ -8,19 +8,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi+👋+I'm+Janhavi;BTech+IT+Student;Cloud+%26+DevOps+Enthusiast;Java+|+C+|+C%2B%2B+|+Python;Learning+%26+Building+Daily+🚀" />
 </p>
 
-<!-- ===================== VISITOR COUNTER ===================== -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=janhavi-2007&label=Profile%20Views&color=2563eb&style=for-the-badge" />
-</p>
-
 <!-- ===================== ABOUT ME ===================== -->
 <h2 align="center" style="color:#58A6FF;">🚀 About Me</h2>
 
 <p align="center">
 🎓 BTech IT Student <br>
-☁️ Cloud & DevOps enthusiast <br>
 💻 Strong foundation in Java, C, C++ & Python <br>
-⚙️ Interested in Automation, CI/CD & System Design
+⚙️ Interested in Cloud & DevOps
 </p>
 
 <!-- ===================== TOP LANGUAGES (CUSTOM) ===================== -->
@@ -30,13 +24,6 @@
   <img src="https://skillicons.dev/icons?i=java,c,cpp,python&theme=dark" />
 </p>
 
-<!-- ===================== CONTRIBUTION SNAKE ===================== -->
-<h2 align="center" style="color:#58A6FF;">🐍 Contribution Graph</h2>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/janhavi-2007/janhavi-2007/output/github-contribution-grid-snake.svg" />
-</p>
-
 <!-- ===================== CONNECT ===================== -->
 <h2 align="center" style="color:#58A6FF;">🤝 Connect With Me</h2>
 
@@ -44,7 +31,7 @@
   <a href="https://www.linkedin.com">
     <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:yourmail@gmail.com">
+  <a href="janhavii0911@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-06B6D4?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
