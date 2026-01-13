@@ -10,7 +10,7 @@
 
 <!-- ===================== VISITOR COUNTER ===================== -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=2563eb&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=janhavi-2007&label=Profile%20Views&color=2563eb&style=for-the-badge" />
 </p>
 
 <!-- ===================== BADGES ===================== -->
