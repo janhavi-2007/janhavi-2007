@@ -1,11 +1,11 @@
 <!-- ===================== ANIMATED HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2563EB,100:06B6D4&height=200&section=header&text=Welcome%20to%20My%20GitHub&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2563EB,100:06B6D4&height=200&section=header&text=Janhavi%20Suryawanshi&fontSize=42&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <!-- ===================== TYPING SVG ===================== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi+👋+I'm+Janhavi;BTech+IT+Student;Future+Cloud+%26+DevOps+Engineer;Learning+Every+Day+🚀" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi+👋+I'm+Janhavi;BTech+IT+Student;Cloud+%26+DevOps+Enthusiast;Java+|+C+|+C%2B%2B+|+Python;Learning+%26+Building+Daily+🚀" />
 </p>
 
 <!-- ===================== VISITOR COUNTER ===================== -->
@@ -15,9 +15,9 @@
 
 <!-- ===================== BADGES ===================== -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Cloud%20%26%20DevOps-2563EB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-C%20|%20C++%20|%20Python-06B6D4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Learning-AWS%20|%20Docker%20|%20Linux-22D3EE?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Primary-Java-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Core-C%20%7C%20C++-06B6D4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Scripting-Python-22D3EE?style=for-the-badge" />
 </p>
 
 <!-- ===================== ABOUT ME ===================== -->
@@ -25,14 +25,16 @@
 
 <p align="center">
 🎓 BTech IT Student <br>
-☁️ Passionate about Cloud & DevOps <br>
-⚙️ Interested in Automation & Scalable Systems <br>
-📈 Growing every day with consistency
+☁️ Cloud & DevOps enthusiast <br>
+💻 Strong foundation in Java, C, C++ & Python <br>
+⚙️ Interested in Automation, CI/CD & System Design
 </p>
 
-<!-- ===================== TOP LANGUAGES ===================== -->
+<!-- ===================== TOP LANGUAGES (CUSTOM) ===================== -->
+<h2 align="center" style="color:#58A6FF;">💻 Programming Languages</h2>
+
 <p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=janhavi-2007&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="https://skillicons.dev/icons?i=java,c,cpp,python&theme=dark" />
 </p>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
@@ -46,10 +48,10 @@
 <h2 align="center" style="color:#58A6FF;">🤝 Connect With Me</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com">
     <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="janhavii0911@gmail.com">
+  <a href="mailto:yourmail@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-06B6D4?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
@@ -58,30 +60,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:2563EB&height=120&section=footer"/>
 </p>
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # every day
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: YOUR_USERNAME
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-
-      - name: Push snake
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
